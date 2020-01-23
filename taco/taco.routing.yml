@@ -1,0 +1,7 @@
+wy_page:
+  path: '/taco'
+  defaults:
+    _controller: 'Drupal\taco\Controller\TacoController::page'
+    _title: 'taco menus'
+  requirements:
+    _permission: 'view content'

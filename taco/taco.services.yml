@@ -1,0 +1,4 @@
+services:
+  plugin.manager.taco:
+    class: Drupal\taco\TacoManager
+    parent: default_plugin_manager
